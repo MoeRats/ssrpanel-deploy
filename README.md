@@ -24,7 +24,7 @@ apt-get -y install wget
 
 ### 执行脚本
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/quniu/ssrpanel-deploy/master/deploy.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/MoeRats/ssrpanel-deploy/master/deploy.sh
 chmod +x deploy.sh
 ./deploy.sh
 ```
@@ -85,7 +85,7 @@ v2ray
 使用root用户运行以下命令：
 
 ```
-wget --no-check-certificate https://github.com/quniu/servertool/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+wget --no-check-certificate https://github.com/MoeRats/servertool/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 安装完成后，脚本会提示需要重启 VPS，输入 y 并回车后重启。
 
