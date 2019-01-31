@@ -1,4 +1,4 @@
-# SSRPanel面板安装后端脚本
+# SSRPanel面板一键安装后端脚本
 
 
 
