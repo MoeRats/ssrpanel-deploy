@@ -1,14 +1,9 @@
 #!/usr/bin/env bash
 
-#
 # System Required:  CentOS 6,7, Debian, Ubuntu
-# Description: One click ShadowsocksR Server
-#
-# Thanks: @teddysun <https://github.com/teddysun>
-# Reference URL:
-# https://github.com/ssrpanel/shadowsocksr
-# Author: QuNiu
-#
+# Description: One click ShadowsocksR V2Ray Server
+# Reference URL:https://github.com/ssrpanel/shadowsocksr
+# Author: MoeRats
 
 # PATH
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
@@ -21,15 +16,15 @@ libsodium_url="https://github.com/jedisct1/libsodium/releases/download/1.0.16/li
 # shadowsocksr
 shadowsocksr_name="shadowsocksr"
 shadowsocksr_file="shadowsocksr"
-shadowsocksr_url="https://github.com/quniu/${shadowsocksr_file}.git"
-shadowsocksr_service_yum="https://raw.githubusercontent.com/quniu/ssrpanel-deploy/master/service/${shadowsocksr_name}"
-shadowsocksr_service_apt="https://raw.githubusercontent.com/quniu/ssrpanel-deploy/master/service/${shadowsocksr_name}-debian"
+shadowsocksr_url="https://github.com/MoeRats/${shadowsocksr_file}.git"
+shadowsocksr_service_yum="https://raw.githubusercontent.com/MoeRats/ssrpanel-deploy/master/service/${shadowsocksr_name}"
+shadowsocksr_service_apt="https://raw.githubusercontent.com/MoeRats/ssrpanel-deploy/master/service/${shadowsocksr_name}-debian"
 
 # v2ray
 ssrpanel_v2ray_name="ssrpanel-v2ray"
 v2ray_init_name="v2ray"
-v2ray_service_yum="https://raw.githubusercontent.com/quniu/ssrpanel-deploy/master/service/${v2ray_init_name}"
-v2ray_service_apt="https://raw.githubusercontent.com/quniu/ssrpanel-deploy/master/service/${v2ray_init_name}-debian"
+v2ray_service_yum="https://raw.githubusercontent.com/MoeRats/ssrpanel-deploy/master/service/${v2ray_init_name}"
+v2ray_service_apt="https://raw.githubusercontent.com/MoeRats/ssrpanel-deploy/master/service/${v2ray_init_name}-debian"
 
 # Current folder
 cur_dir=`pwd`
